@@ -3,7 +3,7 @@
 body, html {
     height: 100%;
     background-image: url(https://cutewallpaper.org/21/paw-print-wallpaper/Dog-Paw-Cat-Paw-Puppy-Kitten-Vector-Seamless-Pattern-Wallpaper-Background.jpg);
-
+    background-attachment: fixed;
 }
 
 .hero-image {
@@ -30,6 +30,20 @@ body, html {
 
 }
 
-.col{
-  transform: none;
+.footer{
+    background-color: pink;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.pawbrewhero{
+    font-family: 'Londrina Solid', cursive;
+}
+
+.card-title{
+    text-align: center;
 }
