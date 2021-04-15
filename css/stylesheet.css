@@ -15,6 +15,19 @@ body, html {
 
 }
 
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+}
 .hero-text {
   text-align: center;
   position: absolute;
@@ -24,13 +37,9 @@ body, html {
   color: white;
 }
 
-.container {
-    background-color: white; 
-
-}
 
 .footer{
-    background-color: pink;
+    background-color: darkslategrey;
     position: relative;
     left: 0;
     bottom: 0;
@@ -58,15 +67,34 @@ body, html {
 }
 
  .coffee-menu{
-    background-color: #ffdb58;
+ background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.pexels.com/photos/585750/pexels-photo-585750.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color:white
 }
 
 .notcoffee-menu{
-    background-color: #616e7c
+    background-image:  url("https://ak.picdn.net/shutterstock/videos/25582520/thumb/1.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color:white
+  
 }
 
 .food-menu{
-    background-color: #e3a985
+       background-image: url("https://image.freepik.com/free-photo/various-food-ingredients-dark-background-with-space-text-message_78502-110.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color:white;
 }
 
 .menu-headertext{
@@ -84,3 +112,60 @@ h3{
       font-family: 'Londrina Solid', cursive;
     text-align: center;
 }
+
+h5{
+  font-family: 'Londrina Solid', cursive;
+    text-align: center;  
+}
+.card-img-top{
+    border-radius: 50%;
+}
+
+/* Style the container with a rounded border, grey background and some padding and margin */
+.container {
+  border: 2px solid white;
+  background-color: white;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px 0;
+}
+
+/* Clear floats after containers */
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Float images inside the container to the left. Add a right margin, and style the image as a circle */
+.container img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+/* Increase the font-size of a span element */
+.container span {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+/* Add media queries for responsiveness. This will center both the text and the image inside the container */
+@media (max-width: 500px) {
+  .container {
+    text-align: center;
+  }
+
+  .container img {
+    margin: auto;
+    float: none;
+    display: block;
+  }
+}
+
+ul{
+      list-style-type: none;
+}
+
+
+   
