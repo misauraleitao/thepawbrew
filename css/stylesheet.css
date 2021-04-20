@@ -121,51 +121,45 @@ h5{
     border-radius: 50%;
 }
 
-/* Style the container with a rounded border, grey background and some padding and margin */
+
 .container {
-  border: 2px solid white;
-  background-color: white;
-  border-radius: 5px;
-  padding: 16px;
-  margin: 16px 0;
+  position: relative;
+  width: 50%;
 }
 
-/* Clear floats after containers */
-.container::after {
-  content: "";
-  clear: both;
-  display: table;
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
-/* Float images inside the container to the left. Add a right margin, and style the image as a circle */
-.container img {
-  float: left;
-  margin-right: 20px;
-  border-radius: 50%;
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: darkslategrey;
 }
 
-/* Increase the font-size of a span element */
-.container span {
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
   font-size: 20px;
-  margin-right: 15px;
+  font-family: 'Londrina Solid', cursive;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
-/* Add media queries for responsiveness. This will center both the text and the image inside the container */
-@media (max-width: 500px) {
-  .container {
-    text-align: center;
-  }
-
-  .container img {
-    margin: auto;
-    float: none;
-    display: block;
-  }
-}
-
-ul{
-      list-style-type: none;
-}
-
-
-   
