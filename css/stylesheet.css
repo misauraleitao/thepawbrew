@@ -163,3 +163,109 @@ h5{
   text-align: center;
 }
 
+#enquires{
+    position: relative;
+    font-family: 'Londrina Solid', cursive;
+    
+}
+
+.lead{
+    text-align: center;
+}
+
+.Jack-Russel-running{
+    height:328px;
+    width:450px;
+    border-radius: 8px;
+
+}
+
+div .card{
+border: 0;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+ol{
+    list-style-type: none;
+  background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pdflowerset17-tang-01_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=d39627085118fbb26507703d6c4e7d94");
+  padding: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-family: 'Londrina Solid', cursive;
+ 
+  
+}
+
+.slideshow-container {
+  position: relative;
+  background:white;
+}
+
+
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color:darkslategray;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: darkslategray;
+  color: white;
+}
+
+
+.dot-container {
+  text-align: center;
+  padding: 20px;
+  background: white;
+}
+
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+
+.active, .dot:hover {
+  background-color: royalblue;
+}
+
+q {
+    font-style: italic;
+}
+
+.author {
+    color: darkslategray;
+}
