@@ -1,9 +1,10 @@
 
-
+/* CSS */
 body, html {
     height: 100%;
     background-color: white;
 }
+
 
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://figopetinsurance.com/sites/default/files/styles/blog_detail/public/imagedogssmall-dog-coffee-shop-ownerblog.jpg?itok=7NY8LtLD");
@@ -142,36 +143,6 @@ input[type="submit"] {
 
 }
 
- .coffee-menu{
- background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.pexels.com/photos/585750/pexels-photo-585750.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
-  height: 50%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  color:white
-}
-
-.notcoffee-menu{
-    background-image:  url("https://ak.picdn.net/shutterstock/videos/25582520/thumb/1.jpg");
-  height: 50%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  color:white
-  
-}
-
-.food-menu{
-       background-image: url("https://image.freepik.com/free-photo/various-food-ingredients-dark-background-with-space-text-message_78502-110.jpg");
-  height: 50%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  color:white;
-}
 
 .menu-headertext{
     font-family: 'Londrina Solid', cursive;
@@ -226,6 +197,49 @@ h5{
   opacity: 1;
 }
 
+.not-coffee {
+ list-style-type: none;
+  background-image: url("https://images.fridaymagazine.ae/1_2299511/imagesList_0/3213656976_main.jpg");
+  padding: 50px;
+  background-position: right;
+  background-repeat: no-repeat;
+  text-align: left;
+  background-size: contain;
+ color: black;
+ border-radius: 50px;
+ border-left-style: dotted;
+}
+
+.food{
+ list-style-type: none;
+  background-image: url("https://cdn.trendhunterstatic.com/phpthumbnails/309/309262/309262_1_800.jpeg");
+  padding: 50px;
+  background-position: left;
+  background-repeat: no-repeat;
+  text-align: right;
+  background-size: contain;
+  font-family: 'Londrina Solid', cursive;
+ color: black;
+ border-radius: 50px;
+ border-right-style: dotted;
+}
+
+.coffee{
+      list-style-type: none;
+  background-image: url("https://res.cloudinary.com/grohealth/image/upload/f_auto,fl_lossy,q_auto/v1581688713/DCUK/Content/iStock-938993594-1000x600.jpg");
+  padding: 50px;
+  background-position: left;
+  background-repeat: no-repeat;
+  text-align: right;
+  background-size: contain;
+ color: black;
+ border-radius: 50px;
+ border-right-style: dotted;
+}
+
+ol li{
+    font-family: 'Londrina Solid', cursive; 
+}
 .text {
   color: white;
   font-size: 20px;
@@ -262,18 +276,6 @@ margin-left: 10px;
 margin-right: 10px;
 }
 
-ol{
-    list-style-type: none;
-  background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pdflowerset17-tang-01_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=d39627085118fbb26507703d6c4e7d94");
-  padding: 50px;
-  background-position: center;
-  background-repeat: no-repeat;
-  text-align: center;
-  font-family: 'Londrina Solid', cursive;
- 
-  
-}
-
 .slideshow-container {
   position: relative;
   background:white;
@@ -284,7 +286,6 @@ ol{
   padding: 80px;
   text-align: center;
 }
-
 
 .prev, .next {
   cursor: pointer;
@@ -300,26 +301,22 @@ ol{
   user-select: none;
 }
 
-
 .next {
   position: absolute;
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
-
 .prev:hover, .next:hover {
   background-color: darkslategray;
   color: white;
 }
-
 
 .dot-container {
   text-align: center;
   padding: 20px;
   background: white;
 }
-
 
 .dot {
   cursor: pointer;
@@ -332,7 +329,6 @@ ol{
   transition: background-color 0.6s ease;
 }
 
-
 .active, .dot:hover {
   background-color: darkseagreen;
 }
@@ -344,5 +340,3 @@ q {
 .author {
     color: darkslategray;
 }
-
-

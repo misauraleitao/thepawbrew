@@ -1,45 +1,105 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# The Paw Brew
 
-Welcome misauraleitao,
+This website is about a dog coffee shop in London. 
+In this website you can find information about the establishment of the business, book a table,
+see pictures and read each dog's profile as well as the coffee shop's menu.
+I have designed this by making sure it is easy to navigate, clear and simple information and at the 
+same time looking appealing and captivating to the user.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+__UX__
 
-## Gitpod Reminders
+This is a front-end only website. The audience targetted are people that might be interested
+in visiting the cafe for the first time and therefore might want to book a table, read the menu 
+or could be existing customers too.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+In order to achieve this I have created:
 
-`python3 -m http.server`
+- About us/Home Page where users can read through information about the business, the products
+and where they rescue the dogs from.
+- A review carousel so that users can read through and find confidence in the business.
+- There is a gallery page called Meet The Pups which hosts pictures and brief profile descriptions
+of all the dogs at the cafe.
+- By clicking on the location icon on the navbar users can find an embed google maps iframe
+with the exact pinpoint of the location of where the cafe is located. 
+- If users would wish to make general enquires or request a table I have added a contact page 
+where users are asked to fill out a form so that The Paw Brew staff can get in contact with them.
+- On the footer section of all webpages users can find social media links, contact number, email and 
+address as well as the option to input their email address in order to subscribe to a newsletter aswel as
+recieving discounts and updates from The Paw Brew.
+- The menu page allows the user to navigate through The Paw Brew's products and in there is also 
+information about dietary requirements.
 
-A blue button should appear to click: *Make Public*,
+# Features
 
-Another blue button should appear to click: *Open Browser*.
+[link] Home/About Us Page [link]
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- Review Carousel- this is a captivating display which allows the audience to read through
+customers views on the establishment.
+- Book you table- the button is situated over the hero image so that the user can go straight 
+into booking a table if they wish to. This is useful as the user might only be on the webpage 
+to book, therefore it gives the user time efficiency.
+- Click me link- the link on the Charity section will take the user to the offical Battersea 
+Dog and Cat rescue where they can follow instructions on adoption or donation.
 
-A blue button should appear to click: *Make Public*,
+[link] Our Menu [link]
 
-Another blue button should appear to click: *Open Browser*.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+[link] Meet our Pups [link]
 
-## Updates Since The Instructional Video
+- Hover over images- whilst on this page users can find images of the dogs at The Paw Brew.
+By hovering through them or, if on mobile, clicking the image it shows the dog's name and a
+brief description of their personality.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+[Link] Contact Us/ Booking Page [link]
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+- Form- this feature provides a form so that the user can fill it out so that they can get in contact
+with The Paw Brew in regards of making a booking or to simply make an enquire.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+_All Pages_
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+- Social Media Links- it allows the user to connect with The Paw Brew by following them.
+- Subscribe- Users can input their email address in order to recieve a newsletter.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+# Technologies
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+- HTML5- used as layout and construction of the website.
+- CSS- used to style it.
+- Bootstrap v5.0- this was used to create a time efficent and fast layout. Grids, components and other 
+documents to improve the overall design of the webpage with less work.
+- JavaScript- used on Review Carousel to animate it.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+# Testing
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+Devices Used:
+- Iphone X ios
+- Poco mobile android
+- HP Laptop windows 
+- Dell Laptop
 
---------
+Browsers Used:
+- Chrome
+- Microsoft Edge
+- Mozilla Firefox
+- Safari
 
-Happy coding!
+# Issues/Bugs
+
+# Validation 
+All files passed validation testing at W3 validator.
+
+# Deployment
+
+My website is deployed on GitHub pages -
+
+# Credits
+
+- Media Content- all images used from various sources online
+
+# Acknowlegments
+
+- Code Institute
+- W3 schools.com- I used enomerous of tutorials on their website to help me with mine. Examples are 
+the review carousel, hero image on home page, styling images and hover over images.
+- Envatotuts+ (anna monus)- I took inspiration and help from her article on building a Responsive, Multi-Level, Sticky Footer With Flexbox.
+
+

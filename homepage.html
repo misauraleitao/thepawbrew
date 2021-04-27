@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"/>
 </head>
 <body>
+    <!-- Navigation Bar -->
  <nav class="navbar navbar-expand-lg navbar-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="homepage.html"><img src="https://image.flaticon.com/icons/png/512/64/64431.png" alt="logopaw" height="24" width="24"></a>
@@ -49,17 +50,17 @@
     </div>
     </div>
       </nav>
-    
+    <!-- Main Hero Image -->
  <div class="hero-image">
   <div class="hero-text">
     <h1 class="pawbrewhero"><i class="fas fa-paw"></i> Welcome to The Paw Brew <i class="fas fa-paw"></i></h1>
     <p class="lead">Where you can enjoy great coffee and pet lots of fluffy friends</p>
-  <button type="button" class="btn btn-outline-light">BOOK YOUR TABLE NOW!</button>
+  <!-- Booking Button-->
+    <button type="button" class="btn btn-outline-light"> <a href="contact.html">BOOK YOUR TABLE NOW!</a> </button>
 </div>
 </div>
-
 <br>
-
+<!-- About Us Section -->
 <div class="row row-cols-1 row-cols-md-3 g-4">
   <div class="col">
     <div class="card">
@@ -70,6 +71,7 @@
       </div>
     </div>
   </div>
+  <!-- More than just good coffee section -->
   <div class="col">
     <div class="card">
         <img src="https://images.unsplash.com/photo-1422207258071-70754198c4a2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTV8fHxlbnwwfHx8&w=1000&q=80" width="50%" height="50%" class="card-img-top" alt="filter-coffee">
@@ -79,6 +81,7 @@
       </div>
     </div>
   </div>
+  <!-- Charity Section -->
   <div class="col">
     <div class="card">
         <img src="https://theiscp.com/wp-content/uploads/2019/04/Lisa-Tenzin-Dolma-48-L-greyscale-1-e1554393126400.jpg" width="50%" height="50%" class="card-img-top" alt="black-white-dog">
@@ -91,38 +94,40 @@
 </div>
 <br>
 <hr class="my-4">
+<!-- Reviews Carousel Section -->
 <h1>Reviews <i class="far fa-thumbs-up"></i></h1>
 <div class="slideshow-container">
 
-  <!-- Full-width slides/quotes -->
+  <!-- Review one -->
   <div class="mySlides">
     <q class="lead">Best Coffee and of course I can't complain about the company either!</q>
     <p class="author">- Joahnna White</p>
   </div>
-
+<!-- Review two -->
   <div class="mySlides">
     <q class="lead">I live so far away, but I am willing to drive 100 miles to have the best carrot cake in the UK and see the pups!</q>
     <p class="author">- Mario Parks</p>
   </div>
-
+<!-- Review three -->
   <div class="mySlides">
     <q class="lead">As a coffee connisseur I have to go say this is the best spot in London for speciality espresso. And, of course the animals are just a bonus!</q>
     <p class="author">- Gordon Ferry</p>
   </div>
 
-  <!-- Next/prev buttons -->
+  <!-- Next/prev buttons JS -->
   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
   <a class="next" onclick="plusSlides(1)">&#10095;</a>
 </div>
 
-<!-- Dots/bullets/indicators -->
+<!-- Dots/bullets/indicators JS -->
 <div class="dot-container">
   <span class="dot" onclick="currentSlide(1)"></span>
   <span class="dot" onclick="currentSlide(2)"></span>
   <span class="dot" onclick="currentSlide(3)"></span>
 </div>
+<!-- JavaScript my script Carousel -->
 <script>
-var slideIndex = 1;
+    var slideIndex = 1;
 showSlides(slideIndex);
 
 function plusSlides(n) {
@@ -171,20 +176,15 @@ function showSlides(n) {
           </form>
         </div>
       </section>
-     
-      
+     <!-- Footer Social -->
       <section class="ft-social">
         <ul class="ft-social-list">
-          <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-          <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+  <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a></li>
+          <li><a href="https://twitter.com/?lang=en-gb" target="_blank"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+          <li><a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a></li>
         </ul>
       </section>
-     
-     
-      
-    </footer>
+     </footer>
 </body>
-
 </html>
