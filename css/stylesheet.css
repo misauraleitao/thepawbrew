@@ -179,15 +179,6 @@ h1 {
 	text-align: center;
 }
 
-h3 {
-	font-family: 'Londrina Solid', cursive;
-	text-align: center;
-}
-
-h5 {
-	font-family: 'Londrina Solid', cursive;
-	text-align: center;
-}
 
 .card-img-top {
 	border-radius: 50%;
@@ -261,9 +252,7 @@ h5 {
 	border-right-style: dotted;
 }
 
-ol li {
-	font-family: 'Londrina Solid', cursive;
-}
+
 
 .text {
 	color: white;
@@ -293,11 +282,7 @@ ol li {
 	border-radius: 8px;
 }
 
-div .card {
-	border: 0;
-	margin-left: 10px;
-	margin-right: 10px;
-}
+
 
 .slideshow-container {
 	position: relative;
@@ -365,4 +350,7 @@ q {
 
 .author {
 	color: darkslategray;
+}
+ol{
+list-style: none;
 }
