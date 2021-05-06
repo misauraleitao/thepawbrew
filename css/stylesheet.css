@@ -19,6 +19,41 @@ nav {
 	position: relative;
 }
 
+.hero-image-meetourpups {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/various-dogs-horizontal-web-banner-susan-schmitz.jpg");
+	height: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.hero-image-menu{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://blog.myollie.com/content/images/2020/03/shutterstock_508866601-1.jpg");
+	height: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.hero-image-contact{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://talkinganimals.net/wp-content/uploads/2016/10/DOG-ON-PHONE.png");
+	height: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;  
+}
+
+.hero-image-location{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i.redd.it/c65qr8dkrs511.jpg");
+	height: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;  
+}
 .material-icons {
 	font-family: 'Material Icons';
 	font-weight: normal;
@@ -133,14 +168,6 @@ form {
 	text-align: center;
 }
 
-.hero-image-menu {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://media.istockphoto.com/photos/coffee-and-croissant-picture-id1165085589?k=6&m=1165085589&s=612x612&w=0&h=je7dJYcEMsEDkWhejRmJ3Op927bK0wyHkcdFOcj9yYs=");
-	height: 50%;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: relative;
-}
 
 .menu-headertext {
 	font-family: 'Londrina Solid', cursive;
