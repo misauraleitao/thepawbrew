@@ -7,7 +7,7 @@
      background-color: #536872;
 }
  .hero-image {
-     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://figopetinsurance.com/sites/default/files/styles/blog_detail/public/imagedogssmall-dog-coffee-shop-ownerblog.jpg?itok=7NY8LtLD");
+     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/asset/images/imagedogssmall-dog-coffee-shop-ownerblog.jpg");
      height: 50%;
      background-position: center;
      background-repeat: no-repeat;
@@ -15,7 +15,7 @@
      position: relative;
 }
  .hero-image-meetourpups {
-     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/various-dogs-horizontal-web-banner-susan-schmitz.jpg");
+     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/asset/images/variousdogs.jpg");
      height: 50%;
      background-position: center;
      background-repeat: no-repeat;
@@ -23,7 +23,7 @@
      position: relative;
 }
  .hero-image-menu{
-     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://blog.myollie.com/content/images/2020/03/shutterstock_508866601-1.jpg");
+     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/asset/images/dogincoffeebeans.jpg");
      height: 50%;
      background-position: center;
      background-repeat: no-repeat;
@@ -31,7 +31,7 @@
      position: relative;
 }
  .hero-image-contact{
-     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://talkinganimals.net/wp-content/uploads/2016/10/DOG-ON-PHONE.png");
+     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/asset/images/DOG-ON-PHONE.png");
      height: 50%;
      background-position: center;
      background-repeat: no-repeat;
@@ -39,7 +39,7 @@
      position: relative;
 }
  .hero-image-location{
-     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i.redd.it/c65qr8dkrs511.jpg");
+     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/asset/images/dog-looking-at-view.jpg");
      height: 50%;
      background-position: center;
      background-repeat: no-repeat;

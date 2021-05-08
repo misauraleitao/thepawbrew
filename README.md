@@ -1,5 +1,8 @@
 # The Paw Brew
+<img src="">
 
+- Live Version: [https://misauraleitao.github.io/thepawbrew/]
+- GitHub Repository:[https://github.com/misauraleitao/thepawbrew]
 This website is about a dog coffee shop in London. 
 In this website you can find information about the establishment of the business, book a table,
 see pictures and read each dog's profile as well as the coffee shop's menu.
@@ -29,9 +32,22 @@ recieving discounts and updates from The Paw Brew.
 - The menu page allows the user to navigate through The Paw Brew's products and in there is also 
 information about dietary requirements.
 
+# Wireframes
+
+## HomePage:
+
+## Our Menu:
+
+## Meet Our Pups:
+
+## Contact:
+
+## Location:
+
+
 # Features
 
-[link] Home/About Us Page [link]
+### Home/About Us Page
 
 - Review Carousel- this is a captivating display which allows the audience to read through
 customers views on the establishment.
@@ -41,16 +57,17 @@ to book, therefore it gives the user time efficiency.
 - Click me link- the link on the Charity section will take the user to the offical Battersea 
 Dog and Cat rescue where they can follow instructions on adoption or donation.
 
-[link] Our Menu [link]
+### Our Menu 
+- Using bootstrap I have muted some text for the vegan options and also added 
+badges on NEW products.
 
 
-[link] Meet our Pups [link]
+### Meet our Pups
 
 - Hover over images- whilst on this page users can find images of the dogs at The Paw Brew.
-By hovering through them or, if on mobile, clicking the image it shows the dog's name and a
-brief description of their personality.
+By hovering through them or, if on mobile, clicking the image it shows the dog's name and breed.
 
-[Link] Contact Us/ Booking Page [link]
+### Contact Us/ Booking Page 
 
 - Form- this feature provides a form so that the user can fill it out so that they can get in contact
 with The Paw Brew in regards of making a booking or to simply make an enquire.
@@ -59,6 +76,7 @@ _All Pages_
 
 - Social Media Links- it allows the user to connect with The Paw Brew by following them.
 - Subscribe- Users can input their email address in order to recieve a newsletter.
+- Hero images- This makes the website more eye catching and adds style to it.
 
 # Technologies
 
@@ -66,26 +84,34 @@ _All Pages_
 - CSS- used to style it.
 - Bootstrap v5.0- this was used to create a time efficent and fast layout. Grids, components and other 
 documents to improve the overall design of the webpage with less work.
-- JavaScript- used on Review Carousel to animate it.
+- JavaScript- used on Review Carousel.
 
 # Testing
-
-Devices Used:
+I ran this website through theese devices and browsers and found no issues.
+### Devices Used:
 - Iphone X ios
 - Poco mobile android
 - HP Laptop windows 
 - Dell Laptop
+- Am I Responsive website
 
-Browsers Used:
+### Browsers Used:
 - Chrome
 - Microsoft Edge
 - Mozilla Firefox
 - Safari
 
 # Issues/Bugs
+No issues/bugs found.
 
 # Validation 
-All files passed validation testing at W3 validator.
+All files passed validation testing at W3 validator with no errors a few warnings.
+homepage index.html -
+henu.html - 
+meetourpups.html -
+contact.html - 
+location.html -
+stylesheet.css -
 
 # Deployment
 
@@ -94,11 +120,16 @@ First thing I did was clicking on settings on the paw brew repository page.
 When the page loaded, I scrolled to the PAGES section and clicked it.
 Once it loaded the page comes up with a section called SOURCE. I clicked on the drop 
 down menu and selected the option of MASTER and then I clicked SAVE.
-
+Your page should load automaticly and there will me a message display saying
+"Your page is now deployed at...."
+During Deployment stage I struggled as the website seemed that it was not going
+through. I then realized that was because I did not name any of the pages index.html.
+Once I added that and updated the file paths it deployed with no issues at all.
 
 # Credits
 
 - Media Content- all images used from various sources online
+- Inside the asset folder on images you can find a .txt file with all links for images.
 
 # Acknowlegments
 
