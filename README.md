@@ -89,7 +89,12 @@ All files passed validation testing at W3 validator.
 
 # Deployment
 
-My website is deployed on GitHub pages -
+My website is deployed on GitHub pages -https://misauraleitao.github.io/thepawbrew/
+First thing I did was clicking on settings on the paw brew repository page.
+When the page loaded, I scrolled to the PAGES section and clicked it.
+Once it loaded the page comes up with a section called SOURCE. I clicked on the drop 
+down menu and selected the option of MASTER and then I clicked SAVE.
+
 
 # Credits
 
