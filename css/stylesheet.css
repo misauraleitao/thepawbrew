@@ -169,10 +169,6 @@ form {
 }
 
 
-.menu-headertext {
-	font-family: 'Londrina Solid', cursive;
-	text-align: center;
-}
 
 h1 {
 	font-family: 'Londrina Solid', cursive;
@@ -212,45 +208,6 @@ h1 {
 	opacity: 1;
 }
 
-.not-coffee {
-	list-style-type: none;
-	background-image: url("https://images.fridaymagazine.ae/1_2299511/imagesList_0/3213656976_main.jpg");
-	padding: 50px;
-	background-position: right;
-	background-repeat: no-repeat;
-	text-align: left;
-	background-size: contain;
-	color: black;
-	border-radius: 50px;
-	border-left-style: dotted;
-}
-
-.food {
-	list-style-type: none;
-	background-image: url("https://cdn.trendhunterstatic.com/phpthumbnails/309/309262/309262_1_800.jpeg");
-	padding: 50px;
-	background-position: left;
-	background-repeat: no-repeat;
-	text-align: right;
-	background-size: contain;
-	font-family: 'Londrina Solid', cursive;
-	color: black;
-	border-radius: 50px;
-	border-right-style: dotted;
-}
-
-.coffee {
-	list-style-type: none;
-	background-image: url("https://res.cloudinary.com/grohealth/image/upload/f_auto,fl_lossy,q_auto/v1581688713/DCUK/Content/iStock-938993594-1000x600.jpg");
-	padding: 50px;
-	background-position: left;
-	background-repeat: no-repeat;
-	text-align: right;
-	background-size: contain;
-	color: black;
-	border-radius: 50px;
-	border-right-style: dotted;
-}
 
 
 
@@ -353,4 +310,46 @@ q {
 }
 ol{
 list-style: none;
+}
+
+.coffee-img{
+    width: 90%;
+    height: 90%;
+    border-radius: 30px;
+
+}
+
+.notcoffee-img{
+    width:90%;
+    height:90%;
+    border-radius: 30px;
+}
+
+.food-img{
+width: 90%;
+height: 90%;
+border-radius: 30px;
+}
+
+#coffee-col{
+  padding-left: 40px;  
+}
+
+#notcoffee-col{
+    padding: 40px;
+}
+
+#food-col{
+    padding: 40px;
+    
+}
+
+.card-menu{
+    display: inline-block;
+    padding: 40px;
+}
+
+@media (min-width: 576px){
+.container, .container-sm {
+    max-width: 540px;}
 }
