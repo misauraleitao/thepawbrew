@@ -3,6 +3,7 @@
 
 - Live Version: [https://misauraleitao.github.io/thepawbrew/]
 - GitHub Repository:[https://github.com/misauraleitao/thepawbrew]
+
 This website is about a dog coffee shop in London. 
 In this website you can find information about the establishment of the business, book a table,
 see pictures and read each dog's profile as well as the coffee shop's menu.
@@ -87,10 +88,10 @@ documents to improve the overall design of the webpage with less work.
 - JavaScript- used on Review Carousel.
 
 # Testing
-I ran this website through theese devices and browsers and found no issues.
+I ran this website through theese devices and browsers.
 ### Devices Used:
-- Iphone X ios
-- Poco mobile android
+- Iphone X ios - The Website is responsive, however hero images were not showing up.
+- Poco mobile android- The Website is responsive, however hero images were not showing up.
 - HP Laptop windows 
 - Dell Laptop
 - Am I Responsive website
@@ -106,36 +107,29 @@ No issues/bugs found.
 
 # Validation 
 All files passed validation testing at W3 validator with no errors a few warnings.
-homepage index.html -
-henu.html - 
-meetourpups.html -
-contact.html - 
-location.html -
-stylesheet.css -
+All .html - [https://validator.w3.org/]
+stylesheet.css - [https://jigsaw.w3.org/css-validator/]
 
 # Deployment
 
 My website is deployed on GitHub pages -https://misauraleitao.github.io/thepawbrew/
-First thing I did was clicking on settings on the paw brew repository page.
+First thing I did was click on settings on the paw brew repository page.
 When the page loaded, I scrolled to the PAGES section and clicked it.
 Once it loaded the page comes up with a section called SOURCE. I clicked on the drop 
 down menu and selected the option of MASTER and then I clicked SAVE.
 Your page should load automaticly and there will me a message display saying
 "Your page is now deployed at...."
-During Deployment stage I struggled as the website seemed that it was not going
-through. I then realized that was because I did not name any of the pages index.html.
-Once I added that and updated the file paths it deployed with no issues at all.
 
 # Credits
 
 - Media Content- all images used from various sources online
-- Inside the asset folder on images you can find a .txt file with all links for images.
+- Battersea Dogs and Cats for the CLICK ME LINK.
 
 # Acknowlegments
 
 - Code Institute
-- W3 schools.com- I used enomerous of tutorials on their website to help me with mine. Examples are 
-the review carousel, hero image on home page, styling images and hover over images.
+- W3 schools.com- I used enomerous of tutorials on their website to help me with mine. These were 
+the review carousel, hero image on home page, styling images and hover over images and also a media queria for the iFrame Google Map.
 - Envatotuts+ (anna monus)- I took inspiration and help from her article on building a Responsive, Multi-Level, Sticky Footer With Flexbox.
-
+- Bootstrap v5.0
 
