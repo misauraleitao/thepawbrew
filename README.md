@@ -1,5 +1,5 @@
 # The Paw Brew
-<img src="">
+<img src="asset/images/amiresponsive.png">
 
 - Live Version: [https://misauraleitao.github.io/thepawbrew/]
 - GitHub Repository:[https://github.com/misauraleitao/thepawbrew]
@@ -16,7 +16,7 @@ This is a front-end only website. The audience targetted are people that might b
 in visiting the cafe for the first time and therefore might want to book a table, read the menu 
 or could be existing customers too.
 
-In order to achieve this I have created:
+__In order to achieve this I have created:__
 
 - About us/Home Page where users can read through information about the business, the products
 and where they rescue the dogs from.
@@ -33,18 +33,42 @@ recieving discounts and updates from The Paw Brew.
 - The menu page allows the user to navigate through The Paw Brew's products and in there is also 
 information about dietary requirements.
 
+## First User Goals:
+- Be able to easily navigate through the website.
+- Find clear stated reviews done by people about the quality of the business.
+- Find valuable information about the business, products and puppies.
+- On the menu I want to make sure there are clear information about dietary needs.
+- Booking table is possible or simply to make any existing enquires.
+- Clear mapped location of the business.
+
+## Returning visitor Goals:
+- I want to make find out about new items in the menu if they are displayed and clearly labelled.
+- Book a table options.
+- Social Media links. 
+- Contact information like phone numbers and emails.
+
+## Frequent User Goals:
+- Be able to subscribe to a newsletter that will email me information and updates.
+- New puppies at the coffee shop updated pictures and text.
+- New items on the menu.
+
+# Design 
+
+## Colours:
+Colours used on this website are white, dark slate gray and dark slate green.
+
+## Typography:
+I have added Google Fonts "Londrina", and different classes from bootstrap like "lead" to make the website 
+look more appealing.
+
+## Imagery:
+I have used black and white images and aestheticly pleasing images to give the impression of the rustic look.
+
+
 # Wireframes
-
-## HomePage:
-
-## Our Menu:
-
-## Meet Our Pups:
-
-## Contact:
-
-## Location:
-
+ Here you can see hand designed wireframes by myself, so that I could have an exact idea of what I wanted the website to look like.
+ 
+ <img src="asset/images/wireframe for paw brew.jpg">
 
 # Features
 
@@ -86,44 +110,58 @@ _All Pages_
 - Bootstrap v5.0- this was used to create a time efficent and fast layout. Grids, components and other 
 documents to improve the overall design of the webpage with less work.
 - JavaScript- used on Review Carousel.
+- Git- Git was used for version control by using the Gitpod terminal to commit to Git and Push to GitHub.
+- GitHub- GitHub was used to store the project's code after being pushed from Git.
+- Font Awesome- This was used to add icons to the website.
+- Google Fonts- I have used the font "Londrina" from google fonts.
+
 
 # Testing
-I ran this website through theese devices and browsers.
+I ran this website through theese devices and browsers. During this process I have found no issues at all.
+Further testing was done by making sure all links worked correctly and linked properly. Also, I made sure the iframes were 
+responsive in every device and browser alongside with the rest of the website.
+
 ### Devices Used:
-- Iphone X ios - The Website is responsive, however hero images were not showing up.
-- Poco mobile android- The Website is responsive, however hero images were not showing up.
-- HP Laptop windows 
-- Dell Laptop
-- Am I Responsive website
+- Iphone X ios - no issues, fully responsive.
+- Poco mobile android- no issues, fully responsive.
+- HP Laptop windows - no issues, fully responsive.
+- Dell Laptop- no issues, fully responsive.
+- Am I Responsive website - [http://ami.responsivedesign.is/?url=https%3A%2F%2Fmisauraleitao.github.io%2Fthepawbrew%2Findex.html]
 
 ### Browsers Used:
-- Chrome
-- Microsoft Edge
-- Mozilla Firefox
-- Safari
+- Chrome- no issues, fully responsive.
+- Microsoft Edge- no issues, fully responsive.
+- Mozilla Firefox- no issues, fully responsive.
+- Safari- no issues, fully responsive.
 
 # Issues/Bugs
 No issues/bugs found.
 
 # Validation 
-All files passed validation testing at W3 validator with no errors a few warnings.
-All .html - [https://validator.w3.org/]
-stylesheet.css - [https://jigsaw.w3.org/css-validator/]
+- All files passed validation testing at W3 validator with no errors a few warnings.
+- All .html - [https://validator.w3.org/]
+- stylesheet.css - [https://jigsaw.w3.org/css-validator/]
 
 # Deployment
 
-My website is deployed on GitHub pages -https://misauraleitao.github.io/thepawbrew/
-First thing I did was click on settings on the paw brew repository page.
-When the page loaded, I scrolled to the PAGES section and clicked it.
-Once it loaded the page comes up with a section called SOURCE. I clicked on the drop 
-down menu and selected the option of MASTER and then I clicked SAVE.
-Your page should load automaticly and there will me a message display saying
-"Your page is now deployed at...."
+My website is deployed on GitHub pages -https://misauraleitao.github.io/thepawbrew/ .
+__Steps__
+
+- First step is to log in to Github and locate the remote repository.
+- At the top of the repository bar click on Settings
+- Once at the settings page you may scroll down to locate Pages section.
+- Under Source, click the dropdown menu named as None and select Master Branch instead.
+- You will now notice the page refreshes naturally and you now can find your publish link in the Pages section.
 
 # Credits
 
 - Media Content- all images used from various sources online
 - Battersea Dogs and Cats for the CLICK ME LINK.
+## Code:
+- Hero images - [https://www.w3schools.com/howto/howto_css_hero_image.asp]
+- Footer - [https://webdesign.tutsplus.com/tutorials/how-to-build-a-responsive-multi-level-sticky-footer-with-flexbox--cms-33341]
+- Review Carousel - [https://www.w3schools.com/howto/howto_js_quotes_slideshow.asp]
+- Hover over images - [https://www.w3schools.com/howto/howto_css_image_overlay.asp]
 
 # Acknowlegments
 
